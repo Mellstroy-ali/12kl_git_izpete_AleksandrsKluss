@@ -1,0 +1,16 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#f5f7fa;color:#1f2933}
+.header{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;background:#0f172a;color:#fff}
+.header a{color:#cbd5f5;margin-left:20px;text-decoration:none}
+.hero{height:85vh;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.hero h1{font-size:54px;margin-bottom:20px}
+.hero button{padding:14px 36px;border:none;border-radius:30px;background:#38bdf8;color:#000;font-size:16px;cursor:pointer}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));padding:60px;background:#fff;text-align:center}
+.about-preview,.testimonials,.cta,.services,.projects,.content{padding:80px;max-width:1200px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px}
+.card{background:#fff;padding:40px;border-radius:18px;box-shadow:0 20px 40px rgba(0,0,0,.1)}
+.testimonial{background:#fff;padding:30px;border-radius:16px;margin-top:20px}
+.cta{text-align:center}
+footer{text-align:center;padding:40px;background:#0f172a;color:#94a3b8}
+input,textarea,button{width:100%;padding:12px;margin-top:15px}
